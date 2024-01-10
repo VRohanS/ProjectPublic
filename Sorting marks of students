@@ -1,0 +1,8 @@
+grades=[45,63,97,96,82,94,25]
+sorted_grade=sorted(grades)
+print("Sorted Grades: ",sorted_grade)
+for grade in sorted_grade:
+    if grade>=50:
+        print(f"Pass: {grade}")
+    else:
+        print(f"fail: {grade}")
